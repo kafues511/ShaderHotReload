@@ -1,4 +1,4 @@
-// Copyright © 2024-2025 kafues511 All Rights Reserved.
+// Copyright © 2025-2026 kafues511 All Rights Reserved.
 
 using UnrealBuildTool;
 
@@ -6,6 +6,27 @@ public class ShaderHotReload : ModuleRules
 {
 	public ShaderHotReload(ReadOnlyTargetRules Target) : base(Target)
 	{
-		bUsePrecompiled = true;
+		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
+
+		PublicDependencyModuleNames.AddRange(
+			new string[]
+			{
+				"Core",
+			}
+		);
+
+		PrivateDependencyModuleNames.AddRange(
+			new string[]
+			{
+				"Projects",
+				"InputCore",
+				"UnrealEd",
+				"ToolMenus",
+				"CoreUObject",
+				"Engine",
+				"Slate",
+				"SlateCore",
+			}
+		);
 	}
 }

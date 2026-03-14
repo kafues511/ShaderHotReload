@@ -3,5 +3,5 @@ This plugin enables hot reloading of engine, plugin, and project shaders without
 
 ![Preview](Resources/Example.png)
 
-## Example
-[【UE5】エンジンやプラグインのシェーダーをホットリロードしてみた – Unreal Engine 5.6](https://kafues511.jp/2025/09/13/6090/)
+# Example
+[【UE5】シェーダーのホットリロードで開発効率あっぷあっぷ – Unreal Engine 5.6](https://kafues511.jp/2026/03/14/8160/)
